@@ -27,7 +27,7 @@ public class Using_Switch03 {
 			B = "은메달";
 			System.out.println(B + "입니다");
 			break;
-		case "Bronze": case "bronze"
+		case "Bronze": case "bronze":
 			B = "동메달";
 			System.out.println(B + "입니다");
 			break;
