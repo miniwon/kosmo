@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //같은 패키지 외부의 객체를 사용할 경우 import가 필요
 
-public class UsingScanner {
+public class UsingScanner01 {
 
 	public static void main(String[] args) {
 		//Scanner: 첫 글자가 대문자로 시작: 클래스(객체를 생성하는 틀)

@@ -18,13 +18,13 @@ public class UsingScanner_if04 {
 		System.out.println("주문하실 커피 메뉴를 고르세요 >>>");
 		
 		String a = sc.next();
-		String price;
+		int price;
 		
 		if (a.equals("에스프레소") || a.equals("카페라테") || a.equals("아포가토")) {
-			price = "3,500";
+			price = 3500;
 			System.out.println("주문하신 " + a + "는 가격이 " + price + "원입니다");
 		} else if (a.equals("아메리카노")) {
-			price = "2,000";
+			price = 2000;
 			System.out.println("주문하신 " + a + "는 가격이 " + price + "원입니다");
 		} else {
 			System.out.println("우리 매장에 없는 메뉴입니다");

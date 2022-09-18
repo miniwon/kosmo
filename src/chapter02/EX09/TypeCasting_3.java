@@ -42,7 +42,7 @@ public class TypeCasting_3 {
 	//int value6 = 5 + 3.5;		//오류 발생
 	int value6 = (int)(5+3.5);	//int로 다운캐스팅
 	
-	double value7 = 5 + 3.5;	//5가 bouble로 자동 업캐스팅
+	double value7 = 5 + 3.5;	//5가 double로 자동 업캐스팅
 	int value7_1 = 5 + (int)3.5;//
 	
 	double value8 = 5/2.0;

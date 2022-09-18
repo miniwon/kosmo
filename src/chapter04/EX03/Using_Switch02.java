@@ -18,7 +18,7 @@ public class Using_Switch02 {
 		
 		Scanner sc = new Scanner(System.in);
 		String menu = sc.next();
-		int price = 0;
+		int price;
 		
 		switch (menu) {
 		case "에스프레소": case "카페라테": case "아포가토":
